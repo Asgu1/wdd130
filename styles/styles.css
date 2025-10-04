@@ -1,3 +1,8 @@
+:root {
+    padding: 20px;
+    margin: 1em;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -6,7 +11,7 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(padding);
 }
 
 h1 {
@@ -31,9 +36,9 @@ main {
 
 aside {
     width: 350px;
-    margin: 1rem;
+    margin: var(margin);
     border: 1px rgb(0, 0, 0/ 0.2);
-    padding: 20px;
+    padding: var(padding);
     background-color: #bc3838;
     color:  #fcfcfc;
     text-align: center;
