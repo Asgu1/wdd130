@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     <header></header>
     <main>
+        <h1>Poll form</h1>
         <form>
             <fieldset>
-                <lengend>Contac information</lengend>
+                <legend>Contac information</legend>
+                <div class="form-item column2" >
                 <label for="fname">Full name: </label>
                 <input type="text" id="fname" name="fname">
+                </div>
+                <div class="form-item column2">
                 <label for="email">Email address: </label>
                 <input type="email" id="email" name="email">
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
+                <div class="form-item column1">
                 <label for="browser">What is your favourite browser?: 
                     <select id="browser" name="browser">
                         <option value="chrome">Chrome</option>
@@ -25,8 +32,11 @@
                         <option value="opera">Opera</option>
                     </select>
                 </label>
+                </div>
+                <div class="form-item column1">
                 <label for="pet">Do you have a household pet?: 
                 <input type="checkbox" id="pet" name="pet">
+                </div>
                 </label>
                 <label for="feedback">List the places you have lived: 
                     <textarea id="feedback" name="feedback" rows="4" placeholder="Guayas, Manabi, Napo, Pichincha"></textarea>
@@ -35,6 +45,6 @@
             <button type="button">Submit poll</button>
         </form> 
     </main>
-    <footer></footer>
+    <footer><p>&#21312 | Poll Activity | Aarón Gutiérrez</p></footer>
 </body>
 </html>
