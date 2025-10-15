@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact White Water Rafting: address, phone, email, and an inquiry/reservation contact form.">
+    <meta name="author" content="Aaron Gutierrez">
+    <title>Contact Us - White Water Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./images/logo.png" alt="White Water Rafting Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-top">
+            <h2>Contact Us</h2>
+            <div class="contact-details">
+                <h3>White Water Rafting Company</h3>
+                <address>
+                    <p>123 River Lane</p>
+                    <p>Boise, ID 83702, USA</p>
+                </address>
+                <p><strong>Phone:</strong> <a href="tel:+12085550123">+1 (208) 555-0123</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@wwrafting.com">info@wwrafting.com</a></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Get in Touch</h2>
+            <div class="contact-grid">
+                <div class="map-container">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86531.50306376459!2d-116.298!3d43.615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef8b9b4a9c111%3A0x8c9d3fa1!2sBoise%2C%20ID!5e0!3m2!1sen!2sus!4v1712688000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map location of White Water Rafting"></iframe>
+                </div>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="you@example.com">
+                    </div>
+                    <fieldset class="form-field">
+                        <legend>Message Purpose</legend>
+                        <div class="radio-group">
+                            <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                            <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Type here..."></textarea>
+                    </div>
+                    <div class="form-field checkbox-field">
+                        <label>
+                            <input type="checkbox" name="subscribe" value="yes">
+                            Please subscribe me to the monthly newsletter
+                        </label>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit">Get in Touch!</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <h2>We Are Here to Serve You</h2>
+            <div class="team-grid">
+                <figure>
+                    <img src="./images/employee1.jpg" alt="Photo of lead guide Anna Torres">
+                    <figcaption>
+                        <strong>Anna Torres</strong><br>
+                        Lead Guide
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/employee2.jpg" alt="Photo of reservations coordinator Luis Perez">
+                    <figcaption>
+                        <strong>Luis Perez</strong><br>
+                        Reservations Coordinator
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/employee3.jpg" alt="Photo of operations manager Marta Ruiz">
+                    <figcaption>
+                        <strong>Marta Ruiz</strong><br>
+                        Operations Manager
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 White Water Rafting - Aaron Gutierrez</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="./images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="./images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="./images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
