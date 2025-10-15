@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <main class="box">
+        <h1>HTML and CSS online quiz</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label for="acronym">What does the acronym stand for?:
+                    <input type="text" id="q1" name="q1">
+                </label>
+            </div>
+            <div class="quiz-item box">
+                <label for="challenge">Describe your bigger challenge when working with HTML or CSS.
+                    <textarea id="q2" name="q2" rows="4" placeholder="Short answer"></textarea>
+                </label>
+            </div>
+            <div class="quiz-item box">
+                <label for="improve">Which area of web development do you want to improve the most?
+                    <select id="q3" name="q3">
+                        <option value="hmtl">Hmtl structure</option>
+                        <option value="css">Css layout</option>
+                        <option value="desing">Responsive desing</option>
+                    </select>
+                </label>
+            </div>
+            <div class="quiz-item box">
+                <label for="ylearning">How many years have you been learning HTML and CSS?
+                    <code class="box">1, 2, 3, 4</code>
+                    <input type="number" id="q4" name="q4">
+                </label>
+            </div>
+            <button type="submit">Submit quizz</button>
+        </form>
+    </main>
+    
+</body>
+</html>
